@@ -24,6 +24,7 @@ public class CustomerOperationController {
 		Customer cust1=new Customer(1001,"raja","hyd",90.0f);
 		Customer cust2=new Customer(1002,"mahesh","vizag",90.0f);
 		Customer cust3=new Customer(1003,"ramana","blore",90.0f);
+		System.out.println("kunal ...");
 		return new ResponseEntity<List<Customer>>(List.of(cust1,cust2,cust3),HttpStatus.OK);
 	}
 	
